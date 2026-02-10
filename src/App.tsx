@@ -30,9 +30,9 @@ import {
 } from "lucide-react";
 
 const COLS: { key: CardStatus; label: string; hint: string }[] = [
-  { key: "todo", label: "À faire", hint: "Tout ce qui attend" },
-  { key: "doing", label: "En cours", hint: "En train de bouger" },
-  { key: "done", label: "Fait", hint: "Terminé ✅" }
+  { key: "todo", label: "À faire", hint: "Tout ce qui attend 🚦" },
+  { key: "doing", label: "En cours", hint: "En train de bouger 🛣️ " },
+  { key: "done", label: "Fait", hint: "Terminé 🏁" }
 ];
 
 function cx(...c: Array<string | false | null | undefined>) {
@@ -419,7 +419,7 @@ export default function App() {
             <div className="flex items-center justify-between gap-3">
               <div>
                 <h2 className="text-base font-semibold">Ajouter une card</h2>
-                <p className="text-sm text-slate-400">Ajout express, pour rester dans le flow.</p>
+                <p className="text-sm text-slate-400">Ajout express :</p>
               </div>
 
               <button
